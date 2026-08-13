@@ -43,3 +43,7 @@ disableKinds = ['taxonomy', 'term']
 
 [security]
   allowContent = ['^text/']
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
