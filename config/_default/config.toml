@@ -1,6 +1,6 @@
 baseURL = 'https://taranyourass.github.io/hugo-test/'
 languageCode = ''
-title = 'Magnolia Default' # This can get overwritten by the single language files
+title = 'No Data Centres on Treaty Land' # This can get overwritten by the single language files
 defaultContentLanguage = 'en'
 # defaultContentLanguageInSubDir = true
 enableRobotsTXT = true
