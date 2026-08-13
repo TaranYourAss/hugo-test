@@ -1,4 +1,4 @@
-baseURL = 'https://example.com'
+baseURL = ''
 languageCode = ''
 title = 'Magnolia Default' # This can get overwritten by the single language files
 defaultContentLanguage = 'en'
@@ -18,7 +18,7 @@ disableKinds = ['taxonomy', 'term']
   # Note that enabling this might impact SEO performance, since many search engines now
   # use LLMs that gather data with these crawlers from across the web
 [params.robots]
-  blockAIcrawlers = false
+  blockAIcrawlers = true
 
 [module]
     [[module.mounts]]
@@ -39,3 +39,7 @@ disableKinds = ['taxonomy', 'term']
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+
+[security]
+  allowContent = ['^text/']
