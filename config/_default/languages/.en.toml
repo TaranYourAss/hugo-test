@@ -1,7 +1,7 @@
 disabled = false
 languageCode = 'en-US'
 languageName = 'English'
-title = 'Magnolia' # This will go in the Header as well
+title = 'No Data Centres on Treaty Land' # This will go in the Header as well
 copyright = """Designed with [Hugo](https://gohugo.io/) by [Ludovico Caluori](https://github.com/ololiuhqui) 🎨 \n
  Licensed under [MIT license](https://github.com/ololiuhqui/magnolia-free-hugo-theme/blob/main/LICENSE.md) 📄""" # Please leave this here to give me and the tools i used some credit for the work, or BuyMeACoffee and change or remove the copyrightlink below :)
 contentDir = "content/en"
@@ -9,7 +9,7 @@ contentDir = "content/en"
 
 # Change single params to "false" to remove from rendering
 [params]
-  subtitle = "Free Hugo theme" # This goes in the header and in the site title
+  #subtitle = "Free Hugo theme" # This goes in the header and in the site title
   # PAGES
   [params.homepage]
     # Notice that SEO meta tags (what appears in google search results) can be set
@@ -19,10 +19,10 @@ contentDir = "content/en"
     title = "Magnolia"
     # You can use some markdown safely here as long as you don't include line breaks
     intro= """
-### "Freedom makes us better humans, and makes us improve our status as a collective race faster."
+### To Protect our Health & Environment
 ___
 
-**A simple, completely customizable, multilingual Hugo theme thought for professionals and small businesses.**
+**Fighting to ban hyper-scale AI data centres on Treaty 4. **
 
 I built this theme with simplicity in mind, it is small and easily **customizable, responsive, modular and multilingual**. But it also leaves some space to further in-depth customization since it uses **Bootstrap** and **SCSS**.
 
@@ -39,7 +39,7 @@ Look at what this theme is capable to do on the features page, and see a beautif
     blogButton= "More Stories"
 
 [params.office]
-  title = "The Office"
+  title = "Something"
  description = "This page can be easily customized by adding a google maps link to get directions towards your activity location."
  buttonText = "Get directions"
  buttonLink = "https://maps.app.goo.gl/LzsPzRkTYSZ8SF3y8" # google maps "share" link here (for button)
